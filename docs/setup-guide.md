@@ -13,7 +13,7 @@ This guide documents the setup of a secure Apache2 web server, including firewal
 
 2. **Installed Apache2**:
 - Installed with 'sudo apt install apache2 -y'
-- Started and enabled: 'sudo systemctl start apache2 && sudo syst6emctl enable apache2'
+- Started and enabled: 'sudo systemctl start apache2 && sudo systemctl enable apache2'
 - Verified status: 'sudo systemctl status apache2'
 
 3. **Configured Firewall**:
@@ -23,7 +23,7 @@ This guide documents the setup of a secure Apache2 web server, including firewal
 - Verified: 'sudo ufw status'
 
 4. **Tested the web server**:
-- Accessed via 'http://localhost' or http://server ip
+- Accessed via 'http://localhost' or http://serverip
 - Created a custom 'index.html'
 
 5. **Hardened SSH**
