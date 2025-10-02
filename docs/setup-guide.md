@@ -32,6 +32,11 @@ This guide documents the setup of a secure Apache2 web server, including firewal
 
 6. **Enabled Automatic Security Updates**
 - Installed: 'sudo apt install unattended-upgrades -y'
+- Configured: 'sudo dpkg-reconfigure --priority=low unattended-upgrades'.
+- Restarted Apache2: 'sudo systemctl restart apache2'.
+
+7. **Backed Up Web Files**:
+- Created backup: 'sudo mkdir /backups && sudo tar -czf /backups/www-backup-$(date +%F).tar.gz /var/www/html'.
 
 
 
