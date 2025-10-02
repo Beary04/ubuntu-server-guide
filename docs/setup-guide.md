@@ -23,7 +23,7 @@ This guide documents the setup of a secure Apache2 web server, including firewal
 - Verified: 'sudo ufw status'
 
 4. **Tested the web server**:
-- Accessed via 'http://localhost' or http://<server ip>
+- Accessed via 'http://localhost' or http://server ip
 - Created a custom 'index.html'
 
 5. **Hardened SSH**
