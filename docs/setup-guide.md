@@ -17,7 +17,7 @@ This guide documents the setup of a secure Apache2 web server, including firewal
 - Verified status: 'sudo systemctl status apache2'
 
 3. **Configured Firewall**:
-- Allowed HTTP/HTTPS: 'sudo ufw allow 80/tcp && sudp ufw allow 443/tcp'
+- Allowed HTTP/HTTPS: 'sudo ufw allow 80/tcp && sudo ufw allow 443/tcp'
 - Blocked telnet: 'sudo ufw deny 23/tcp'
 - Enabled firewall: 'sudo ufw enable'
 - Verified: 'sudo ufw status'
